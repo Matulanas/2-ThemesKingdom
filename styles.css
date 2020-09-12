@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+    background-color: #e9c9be;
+    word-break: break-all;
+    text-align: center;
+}
+
+main {
+    display: inline-block;
+    width: 90%;
+}
+
+/* Header */
+header {
+    display: inline-grid;
+    grid-gap: 3px;
+    width: 100%;
+    grid-template-columns: 33% 33% 33%;
+}
+.logo {
+    text-align: left;
+}
