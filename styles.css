@@ -16,10 +16,20 @@ main {
 /* Header */
 header {
     display: inline-grid;
+    vertical-align: middle;
     grid-gap: 3px;
     width: 100%;
     grid-template-columns: 33% 33% 33%;
 }
 .logo {
     text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+    .logo > p > img {
+        margin-left: 5px;
+    }
+.menu {
+    display: flex;
+    align-items: center;
+    text-align: right;
 }
