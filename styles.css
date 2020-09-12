@@ -6,8 +6,12 @@ body {
     background-color: #e9c9be;
     word-break: break-all;
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
-
+a {
+    text-decoration: none;
+    color: #000;
+}
 main {
     display: inline-block;
     width: 90%;
@@ -23,13 +27,14 @@ header {
 }
 .logo {
     text-align: left;
-    font-family: Arial, Helvetica, sans-serif;
 }
     .logo > p > img {
         margin-left: 5px;
     }
 .menu {
-    display: flex;
-    align-items: center;
+    margin: auto 0;
     text-align: right;
+}
+.signin {
+    margin: auto;
 }
