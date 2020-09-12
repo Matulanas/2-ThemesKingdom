@@ -20,10 +20,9 @@ main {
 /* Header */
 header {
     display: inline-grid;
-    vertical-align: middle;
-    grid-gap: 3px;
     width: 100%;
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    font-size: 18px;
 }
 .logo {
     text-align: left;
@@ -35,6 +34,28 @@ header {
     margin: auto 0;
     text-align: right;
 }
+    .menu > a {
+        margin-left: 30px;
+    }
 .signin {
-    margin: auto;
+    margin: auto 0;
+    text-align: right;
+}
+    .signin > a {
+        margin-left: 30px;
+    }
+
+/* Container */
+.container {
+    display: grid;
+    margin-top: 50px;
+    grid-template-columns: 55% 45%;
+}
+.left {
+    text-align: left;
+    font-size: 40px;
+    font-weight: 100;
+}
+.left > p > span {
+    color: #3d3b3c;
 }
