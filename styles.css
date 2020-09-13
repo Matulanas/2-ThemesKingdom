@@ -4,7 +4,6 @@ body {
     vertical-align: top;
     box-sizing: border-box;
     background-color: #e9c9be;
-    word-break: break-all;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -53,9 +52,16 @@ header {
 }
 .left {
     text-align: left;
-    font-size: 40px;
+}
+.left > p {
+    font-size: 75px;
     font-weight: 100;
+    width: 85%;
+    color: #7d6153;
 }
 .left > p > span {
     color: #3d3b3c;
+}
+.right > img {
+    width: 100%;
 }
