@@ -53,15 +53,49 @@ header {
 .left {
     text-align: left;
 }
-.left > p {
-    font-size: 75px;
-    font-weight: 100;
-    width: 85%;
-    color: #7d6153;
-}
-.left > p > span {
-    color: #3d3b3c;
-}
-.right > img {
+    .left > p {
+        font-size: 75px;
+        font-weight: 100;
+        width: 85%;
+        color: #7d6153;
+    }
+    .left > p > span {
+        color: #3d3b3c;
+    }
+    .right > img {
+        width: 100%;
+    }
+
+/* Bottom */
+.bottom {
+    display: grid;
+    grid-template-columns: 15% 20%;
+    text-align: left;
+    align-items: center;
     width: 100%;
 }
+    .bottom > p {
+        margin: auto 0;
+        font-size: 25px;
+        text-decoration: underline;
+    }
+    .bottom > p > img {
+        vertical-align: middle;
+        margin-left: 10px;
+    }
+    .bottom > p:last-of-type {
+        font-size: 12px;
+        float: left;
+    }
+
+
+    .help {
+        background-color: #f4a3ff;
+        width: 50px;
+        height: 50px;
+        clip-path: circle();
+        position: absolute;
+        right: 20px;
+        bottom: 20px;
+        transform: rotate(25deg);
+    }
